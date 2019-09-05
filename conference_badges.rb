@@ -19,3 +19,8 @@ def assign_rooms(speakers)
   end
   room_assignment
 end
+
+def printer(speakers)
+  prints batch_badge_creator(speakers)
+  prints assign_rooms(speakers)
+end
