@@ -15,3 +15,4 @@ end
 def assign_room(speakers)
   rooms = []
   speakers.each_with_index do |name|
+    rooms << 
