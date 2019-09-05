@@ -9,4 +9,5 @@ def batch_badge_creator(speakers)
   speakers.each do |name| 
     badges << badge_maker(name)
   end
+  badges
 end
